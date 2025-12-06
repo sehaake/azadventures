@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Arizona Adventures | Suggest a Location</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Suggest your favorite Arizona locations for future Arizona Adventures updates.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="branding">
+        <img src="Images/white-mtn-logo.png" alt="Mountain icon" class="logo-icon">
+      <h1>Arizona Adventures</h1>
+    </div>
+
+    <nav class="main-nav">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="day-trips.html">Day Trips</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="overnight-trips.html">Overnight Trips</a></li>
+        <li><a href="photoshoot-locations.html">Photoshoot Locations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="page-wrapper">
+      <div class="page-heading">
+        <h2>Suggest a Location</h2>
+        <p>
+          Have a favorite Arizona spot you think should be featured on Arizona Adventures?
+          Use this form to share it. Your suggestions help keep the site updated with real
+          places that locals and visitors actually love.
+        </p>
+      </div>
+
+      <form class="suggest-form" action="#" method="post">
+        <fieldset>
+          <legend>Your Information</legend>
+
+          <div class="form-row">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Location Details</legend>
+
+          <div class="form-row">
+            <label for="location-name">Location Name:</label>
+            <input type="text" id="location-name" name="location-name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="location-comments">Why You Recommend It:</label>
+            <textarea id="location-comments"
+                      name="location-comments"
+                      rows="5"
+                      placeholder="What makes this place special or worth featuring?"
+                      required></textarea>
+          </div>
+        </fieldset>
+
+        <div class="form-actions">
+          <input type="submit" value="Submit Suggestion">
+          <input type="reset" value="Reset Form">
+        </div>
+      </form>
+    </div>
+  </main>
+
+
+  <footer class="site-footer">
+    <hr class="footer-line">
+    <p class="footer-links">
+      <a href="suggest-location.html">Suggest a Location</a>
+      <span class="footer-separator">|</span>
+      <a href="mailto:youremail@asu.edu"><em>Email</em></a>
+      <span class="footer-separator">|</span>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a>
+      <span class="footer-separator">|</span>
+      <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    </p>
+  </footer>
+
+</body>
+</html>
